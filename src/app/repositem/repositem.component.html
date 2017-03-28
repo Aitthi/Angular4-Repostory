@@ -1,0 +1,50 @@
+<div class="box" style="margin-top:10px;">
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img alt="" *ngIf="repos.organization.avatar_url" [src]="repos?.organization.avatar_url" />
+      </figure>
+    </div>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong><a class="title" href="#/frontend-war-react/facebook/react">
+            {{repos?.full_name}}
+            </a></strong>
+        </p>
+        <p class="subtitle">
+          {{repos?.description}}
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <hr/>
+
+  <nav class="level is-mobile">
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Stars</p>
+        <a class="title" href="#/frontend-war-react/">{{repos?.stargazers_count}}</a>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Open Issues</p>
+        <p class="title">{{repos?.open_issues_count}}</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Forks</p>
+        <p class="title">{{repos?.forks_count}}</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Watchers</p>
+        <p class="title">{{repos?.watchers_count}}</p>
+      </div>
+    </div>
+  </nav>
+</div>

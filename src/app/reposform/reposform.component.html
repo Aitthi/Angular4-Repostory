@@ -1,0 +1,14 @@
+
+  <form>
+    <div class="field">
+      <label class="label">Add Repository</label>
+      <p class="control">
+        <input class="input " autocomplete="off" type="text" [(ngModel)]="repos" name="repos" (keyup.enter)="Search();" placeholder="Search Repository" />
+      </p>
+      
+      <div class="results" *ngIf="repos && search" >
+        <a class="result" *ngFor=" let item of search "><img [src]="item?.owner.avatar_url" alt="" style="width: 30px; margin-right: 10px;"> <font>{{item.full_name}}</font> <a class="button is-info is-small" style="float: right;" (click)="AddRepos(item.full_name);"><b>Add</b></a></a>
+      </div>
+
+    </div>
+  </form>
