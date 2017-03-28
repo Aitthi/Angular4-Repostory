@@ -11,6 +11,5 @@ npm install
 ng serve
 ```
 
-Facebook: [https://web.facebook.com/AITTHIBN/]
-(https://web.facebook.com/AITTHIBN)
+Facebook: [https://web.facebook.com/AITTHIBN/](https://web.facebook.com/AITTHIBN)
 
