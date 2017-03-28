@@ -9,7 +9,5 @@ npm install
 ng serve
 ```
 
-[](https://giphy.com/gifs/web-3ohze2sgvTog17QQLu)
-
 Facebook: [https://web.facebook.com/AITTHIBN/](https://web.facebook.com/AITTHIBN)
 
