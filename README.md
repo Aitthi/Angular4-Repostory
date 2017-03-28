@@ -9,7 +9,7 @@ npm install
 ng serve
 ```
 
-![Alt Text](https://giphy.com/gifs/web-3ohze2sgvTog17QQLu)
+[](https://giphy.com/gifs/web-3ohze2sgvTog17QQLu)
 
 Facebook: [https://web.facebook.com/AITTHIBN/](https://web.facebook.com/AITTHIBN)
 
