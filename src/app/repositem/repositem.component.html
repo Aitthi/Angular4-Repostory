@@ -2,13 +2,13 @@
   <article class="media">
     <div class="media-left">
       <figure class="image is-64x64">
-        <img alt="" *ngIf="repos.organization.avatar_url" [src]="repos?.organization.avatar_url" />
+        <img alt="" *ngIf="repos.owner.avatar_url" [src]="repos?.owner.avatar_url" />
       </figure>
     </div>
     <div class="media-content">
       <div class="content">
         <p>
-          <strong><a class="title" href="#/frontend-war-react/facebook/react">
+          <strong><a class="title">
             {{repos?.full_name}}
             </a></strong>
         </p>
@@ -25,7 +25,7 @@
     <div class="level-item has-text-centered">
       <div>
         <p class="heading">Stars</p>
-        <a class="title" href="#/frontend-war-react/">{{repos?.stargazers_count}}</a>
+        <a class="title">{{repos?.stargazers_count}}</a>
       </div>
     </div>
     <div class="level-item has-text-centered">

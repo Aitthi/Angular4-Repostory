@@ -5,5 +5,5 @@ export interface Repos {
     open_issues_count:number,
     forks_count:number,
     watchers_count:null,
-    organization:{}
+    owner:{}
 }

@@ -19,7 +19,7 @@ export class RepositemComponent implements OnInit {
       open_issues_count:0,
       forks_count:0,
       watchers_count:0,
-      organization:{}
+      owner:{}
     }
   }  
   ngOnInit() {
