@@ -16,7 +16,7 @@ export class GitService {
   }
 
   searchRepos(q):Observable<any>{
-    return this._http.get(`${this.API_PATH}/search/repositories?q=${q}&sort=name`)
+    return this._http.get(`${this.API_PATH}/search/repositories?q=${q}&sort=full_name`)
     .map(res => res.json());
   }
 
