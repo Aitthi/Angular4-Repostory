@@ -8,7 +8,7 @@
     <div class="media-content">
       <div class="content">
         <p>
-          <strong><a class="title">
+          <strong><a class="title" [href]="repos?.html_url" target="_blank">
             {{repos?.full_name}}
             </a></strong>
         </p>
@@ -25,7 +25,7 @@
     <div class="level-item has-text-centered">
       <div>
         <p class="heading">Stars</p>
-        <a class="title">{{repos?.stargazers_count}}</a>
+        <p class="title">{{repos?.stargazers_count}}</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
