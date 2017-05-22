@@ -29,7 +29,7 @@ const router:Routes = [
     ReposformComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'Angular4-Repostory'}),
     FormsModule,
     HttpModule,
     RouterModule.forRoot(router)
